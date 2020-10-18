@@ -1,4 +1,4 @@
-const inDev = false;
+const inDev = true;
 const hostname = inDev ? `http://localhost:9000` : `https://kabeers-drive.herokuapp.com`;
 module.exports = {
   callbackURI: `${hostname}/auth/callback`,

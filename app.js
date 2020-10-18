@@ -17,11 +17,15 @@ var authRouter = require('./routes/authRouter');
 
 var app = express();
 
-if (process.env.NODE_ENV !== 'production') {
-    app.use(cors());
-    app.set("json spaces", 2);
-    app.use(logger('dev'));
-}
+// if (process.env.NODE_ENV !== 'production') {
+//     app.use(cors());
+//     app.set("json spaces", 2);
+//     app.use(logger('dev'));
+// }
+app.use(cors());
+app.set("json spaces", 2);
+app.use(logger('dev'));
+
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
