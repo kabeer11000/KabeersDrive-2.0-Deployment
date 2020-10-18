@@ -1,7 +1,8 @@
 const inDev = false;
 const hostname = inDev ? `http://localhost:9000` : `https://kabeers-drive.herokuapp.com`;
 module.exports = {
-  callbackURI: `${hostname}/auth/callback`
+  callbackURI: `${hostname}/auth/callback`,
+  inDev
 };
 /* Schema */
 //https://docs.mongodb.com/manual/tutorial/model-tree-structures-with-child-references/
