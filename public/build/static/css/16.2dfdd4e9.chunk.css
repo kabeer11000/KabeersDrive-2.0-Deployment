@@ -1,0 +1,2 @@
+.parallax{height:100%;overflow-x:hidden;overflow-y:auto;perspective:1px}.parallax__layer{position:absolute;left:0;right:0;bottom:0}.parallax__layer--base{transform:translateZ(0)}.parallax__layer--back{transform:translateZ(-1px) scale(2)}
+/*# sourceMappingURL=16.2dfdd4e9.chunk.css.map */

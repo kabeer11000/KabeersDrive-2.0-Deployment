@@ -1,0 +1,1 @@
+{"version":3,"sources":["FolderView.css"],"names":[],"mappings":"AAIA,kBACI,iBAAkB,CAClB,QAAS,CACT,OAAQ,CACR,8BACJ","file":"13.214a7aaf.chunk.css","sourcesContent":[".FolderView {\r\n\r\n}\r\n\r\n.centered-axis-xy {\r\n    position: absolute;\r\n    left: 50%;\r\n    top: 50%;\r\n    transform: translate(-50%, -50%);\r\n}\r\n"]}
